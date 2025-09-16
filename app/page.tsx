@@ -8,6 +8,8 @@ import { Benefit } from "@/components/Benefit";
 import { About } from "@/components/About";
 import { Ingrediens } from "@/components/Ingrediens";
 import { Values } from "@/components/Values-Section";
+import BenefitSection from "@/components/Benefit-Section";
+import CtaSection from "@/components/Cta-Section";
 
 export default function HomePage() {
   return (
@@ -64,6 +66,8 @@ export default function HomePage() {
       <About />
       <Ingrediens />
       <Values />
+      <BenefitSection />
+      <CtaSection />
     </>
   );
 }
