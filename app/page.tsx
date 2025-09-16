@@ -6,6 +6,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Benefit } from "@/components/Benefit";
 import { About } from "@/components/About";
+import { Ingrediens } from "@/components/Ingrediens";
 
 export default function HomePage() {
   return (
@@ -60,6 +61,7 @@ export default function HomePage() {
       </main>
       <Benefit />
       <About />
+      <Ingrediens />
     </>
   );
 }
