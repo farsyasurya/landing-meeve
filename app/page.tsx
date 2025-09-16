@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Benefit } from "@/components/Benefit";
 import { About } from "@/components/About";
 import { Ingrediens } from "@/components/Ingrediens";
+import { Values } from "@/components/Values-Section";
 
 export default function HomePage() {
   return (
@@ -62,6 +63,7 @@ export default function HomePage() {
       <Benefit />
       <About />
       <Ingrediens />
+      <Values />
     </>
   );
 }

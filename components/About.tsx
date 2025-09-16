@@ -1,10 +1,10 @@
 export function About() {
   return (
-    <section className="relative z-10 flex flex-col items-center justify-center px-10 py-20">
+    <section className="relative z-10 flex items-center justify-center py-10">
       <img
         src="/about.png"
         alt="About Meeve"
-        className="w-4/5 mx-auto lg: w-[100%]"
+        className="w-[100%] sm:w-4/5 md:w-3/5 lg:w-10/11 h-auto"
       />
     </section>
   );
