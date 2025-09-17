@@ -10,6 +10,10 @@ import { Ingrediens } from "@/components/Ingrediens";
 import { Values } from "@/components/Values-Section";
 import BenefitSection from "@/components/Benefit-Section";
 import CtaSection from "@/components/Cta-Section";
+import { Certification } from "@/components/Certification";
+import TestimonialHeader from "@/components/Testimoni";
+import { Blog } from "@/components/Blog";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
   return (
@@ -68,6 +72,10 @@ export default function HomePage() {
       <Values />
       <BenefitSection />
       <CtaSection />
+      <Certification />
+      <TestimonialHeader />
+      <Blog />
+      <Contact />
     </>
   );
 }
